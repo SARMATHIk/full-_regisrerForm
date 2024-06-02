@@ -1,0 +1,159 @@
+/* Default code Starts here */
+
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #edeeeb;
+
+  /* font-family: "Rajdhani", sans-serif; */
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+:root {
+  --primaryColor: #032c48;
+  --secondaryColor: #ef8bae;
+  --tertiaryColor: #0b81d1;
+  --textDarkColor: #000000;
+  --textLightColor: #efefef;
+  --lightColor: #ffffff;
+  --regularFont: 16px;
+  --headingFont: 54px;
+  --sebHeadingFont: 18px;
+  --paragraph: 16px;
+  --links-Buttons-Font: 16px;
+  --fontFamilyPrimary: "Rajdhani", sans-serif;
+  --fontFamilySecondary: "Merienda", cursive;
+}
+
+.align {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 3rem;
+}
+
+/* Default code Ends here */
+
+/* :::project code starts here */
+header {
+  /* background-color: #d5a1ff; */
+  width: 100%;
+  height: auto;
+}
+.formContainer {
+  /* background-color: #44c3e4; */
+  width: 70%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 20px;
+  margin: 2% 1%;
+}
+.registerForm {
+  border: 1px solid black;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  width: 85%;
+  height: auto;
+  /* margin: 15px 290px; */
+  /* margin-left: 190px;
+  margin-top: 510px; */
+  margin: 450px 0 0 390px;
+}
+
+.registerForm h3 {
+  background-color: blue;
+  color: #ffffff;
+  padding: 10px 0;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.doubleInput {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 5px 2px;
+}
+.singleInput {
+  width: 197%;
+  margin: 5px 2px;
+}
+
+.formGroup {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  position: relative;
+  margin: 5px 10px;
+}
+.formGroup input {
+  width: 100%;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.formGroup select {
+  width: 100%;
+  position: relative;
+  margin: 2px 2px;
+  padding: 9px 5px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.formGroup textarea {
+  width: 100%;
+  padding: 10px 30px 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.formGroup i {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+}
+.formGroup1 {
+  margin: 5px 10px;
+  font-size: 14px;
+}
+.formGroup button {
+  background-color: blue;
+  color: #ffffff;
+  width: 90%;
+  padding: 10px 390px;
+  margin: 10px;
+  margin-left: 255px;
+  border: none;
+  border-radius: 5px;
+}
+.formGroup2 {
+  background-color: rgb(229, 229, 240);
+  color: #ffffff;
+  padding: 8px 0;
+  text-align: center;
+}
+
+.formGroup2 p {
+  margin: 20px;
+  color: black;
+  font-size: 15px;
+}
+
+.formGroup2 b {
+  color: blue;
+}
